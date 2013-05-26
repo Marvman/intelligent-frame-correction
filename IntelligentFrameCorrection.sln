@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00F743AD-191B-445E-84C2-9F431B2AC5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentFrameCorrection", "IntelligentFrameCorrection\IntelligentFrameCorrection.csproj", "{FE5379E0-60F9-4695-A1AE-DBE96030F97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFCTests", "IFCTests\IFCTests.csproj", "{778CB3DC-FB69-4219-ACDA-827394B77025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentFrameCorrectionUI", "IntelligentFrameCorrectionUI\IntelligentFrameCorrectionUI.csproj", "{23FA83A8-FF9D-4D50-923B-74974E6F2A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5379E0-60F9-4695-A1AE-DBE96030F97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5379E0-60F9-4695-A1AE-DBE96030F97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5379E0-60F9-4695-A1AE-DBE96030F97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5379E0-60F9-4695-A1AE-DBE96030F97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778CB3DC-FB69-4219-ACDA-827394B77025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778CB3DC-FB69-4219-ACDA-827394B77025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778CB3DC-FB69-4219-ACDA-827394B77025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778CB3DC-FB69-4219-ACDA-827394B77025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FA83A8-FF9D-4D50-923B-74974E6F2A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FA83A8-FF9D-4D50-923B-74974E6F2A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FA83A8-FF9D-4D50-923B-74974E6F2A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FA83A8-FF9D-4D50-923B-74974E6F2A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

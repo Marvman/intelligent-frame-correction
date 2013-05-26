@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+    <id>4</id>
+    <defaultcontrol>3</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
+    <define>#header.label:5</define>
+    <define>#header.image:settings_logo.png</define>
+    <define>#header.hover:hover_settings.png</define>
+    <define>#itemcount:-</define>
+    <define>#selecteditem:-</define>
+    <controls>
+        <import>common.window.xml</import>
+        <control>
+            <description>buttons</description>
+            <type>group</type>
+            <posX>280</posX>
+            <posY>165</posY>
+            <layout>StackLayout</layout>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+            <animation effect="Fade" time="250">WindowClose</animation>
+            <animation effect="Slide" start="-300,0" time="150">WindowOpen</animation>
+            <animation effect="Slide" end="-300,0" time="250">WindowClose</animation>
+            <control>
+                <id>3</id>
+                <description>Wizard</description>
+                <type>button</type>
+                <onup>17</onup>
+                <width>197</width>
+                <hyperlink>615</hyperlink>
+                <label>1200</label>
+            </control>
+            <control>
+                <id>4</id>
+                <description>General</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>705</hyperlink>
+                <label>128</label>
+            </control>
+            <control>
+                <id>5</id>
+                <description>Screen</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>9</hyperlink>
+                <label>6023</label>
+            </control>
+            <control>
+                <id>10</id>
+                <description>TV</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>700</hyperlink>
+                <label>605</label>
+            </control>
+            <control>
+                <id>7</id>
+                <description>My Pictures</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>12</hyperlink>
+                <label>1</label>
+            </control>
+            <control>
+                <id>8</id>
+                <description>Movies</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>703</hyperlink>
+                <label>3</label>
+            </control>
+            <control>
+                <id>9</id>
+                <description>My DVD</description>
+                <type>button</type>
+                <posX>300</posX>
+                <posY>200</posY>
+                <width>197</width>
+                <hyperlink>704</hyperlink>
+                <label>1027</label>
+            </control>
+            <control>
+                <id>6</id>
+                <description>My Music</description>
+                <type>button</type>
+                <posX>300</posX>
+                <posY>200</posY>
+                <width>197</width>
+                <hyperlink>14</hyperlink>
+                <label>2</label>
+            </control>
+            <control>
+                <id>11</id>
+                <description>MiniDisplay</description>
+                <type>button</type>
+                <width>197</width>
+                <hyperlink>9000</hyperlink>
+                <label>9100</label>
+            </control>
+            <control>
+                <id>12</id>
+                <description>Intelligent Frame Correction</description>
+                <type>button</type>
+                <visible>plugin.isenabled(Intelligent Frame Correction GUI)</visible>
+                <posX>300</posX>
+                <posY>200</posY>
+                <width>197</width>
+                <font>font12</font>
+                <hyperlink>240782</hyperlink>
+                <label>Intelligent Frame Correction</label>
+            </control>
+        </control>
+    </controls>
+</window>

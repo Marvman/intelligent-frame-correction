@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="Config">
+    <entry name="4:3">no</entry>
+    <entry name="16:9">yes</entry>
+    <entry name="21:9">no</entry>
+    <entry name="scaninterval">3500</entry>
+    <entry name="stop counter">5</entry>
+    <entry name="verboselogging">yes</entry>
+    <entry name="correct AR">yes</entry>
+    <entry name="isBlackBarScannerEnabled">yes</entry>
+    <entry name="maxBrightnessTreshold">35</entry>
+    <entry name="minBrightnessTreshold">30</entry>
+    <entry name="auto start">yes</entry>
+    <entry name="stabilizer">10</entry>
+    <entry name="single black bar height">70</entry>
+    <entry name="double black bar height">180</entry>
+    <entry name="HD support">yes</entry>
+    <entry name="HD height">600</entry>
+    <entry name="HD width">1200</entry>
+    <entry name="HD operator">or</entry>
+    <entry name="video support">yes</entry>
+    <entry name="stabilization factor">10</entry>
+    <entry name="stabilization tolerance">7</entry>
+    <entry name="edge detection tolerance">2</entry>
+    <entry name="use only zoom factor">no</entry>
+  </section>
+  <section name="Top Scan Area">
+    <entry name="height">25</entry>
+    <entry name="width">30</entry>
+    <entry name="y">0</entry>
+    <entry name="x">33</entry>
+  </section>
+  <section name="Bottom Scan Area">
+    <entry name="height">25</entry>
+    <entry name="width">30</entry>
+    <entry name="y">75</entry>
+    <entry name="x">33</entry>
+  </section>
+  <section name="Left Scan Area">
+    <entry name="height">30</entry>
+    <entry name="width">20</entry>
+    <entry name="y">30</entry>
+    <entry name="x">0</entry>
+  </section>
+  <section name="Right Scan Area">
+    <entry name="height">30</entry>
+    <entry name="width">20</entry>
+    <entry name="y">30</entry>
+    <entry name="x">80</entry>
+  </section>
+  <section name="Video Crop">
+    <entry name="top">0</entry>
+    <entry name="bottom">0</entry>
+    <entry name="left">0</entry>
+    <entry name="right">0</entry>
+  </section>
+  <section name="Overscan Crop">
+    <entry name="top">3</entry>
+    <entry name="bottom">3</entry>
+    <entry name="left">3</entry>
+    <entry name="right">3</entry>
+  </section>
+  <section name="View Mode">
+    <entry name="4:3">NonLinearStretch,0,0,0,0</entry>
+    <entry name="4:3 Letterbox">Stretch,0,0,0,0</entry>
+    <entry name="16:9">Stretch,0,0,0,0</entry>
+    <entry name="16:9 Letterbox">Stretch,0,0,0,0</entry>
+    <entry name="16:9 with Sidebars">NonLinearStretch,0,0,0,0</entry>
+    <entry name="21:9">Normal,0,0,0,0</entry>
+    <entry name="Default">Stretch,0,0,0,0</entry>
+  </section>
+</profile>

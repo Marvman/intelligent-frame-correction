@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="IntelligentFrameCorrection">
+        <ParentGroup />
+        <DisplayName>Intelligent Frame Correction</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Intelligent Frame Correction</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrection\bin\Release\IntelligentFrameCorrection.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4033af81-7a71-48b2-8617-6f4527954c02}-IntelligentFrameCorrection.dll</ZipFileName>
+              <DestinationFilename>%Plugins%\process\IntelligentFrameCorrection.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\bin\Release\IntelligentFrameCorrectionUI.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f9e7c629-bdf5-45de-b3f8-8b9fbdb224af}-IntelligentFrameCorrectionUI.dll</ZipFileName>
+              <DestinationFilename>%Plugins%\Windows\IntelligentFrameCorrectionUI.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrection\IntelligentFrameCorrection.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{caa3381d-bdca-413b-9f72-da748bda7e09}-IntelligentFrameCorrection.xml</ZipFileName>
+              <DestinationFilename>%Config%\IntelligentFrameCorrection.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Skin">
+        <ParentGroup />
+        <DisplayName>Skin</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Skin</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\IFC_Settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{bcaccbb4-857e-4a9c-b291-e545046756a1}-IFC_Settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\IFC_Settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{de9915fd-6488-4db6-af73-7f1b0782c998}-settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\IFC_Settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5aaf3471-1b18-4ad8-a5b7-d83dc91f4352}-IFC_Settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\IFC_Settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c0f6b55c-6e54-4c23-ad5e-981261a39bec}-settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\IFC_Settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{52076770-3054-4a0e-a0e5-461c19b29f6f}-IFC_Settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Default\IFC_Settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c4fd6225-04b8-47cd-a6d5-e9c837bfdbba}-settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Default\settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\IFC_Settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{470ba9b6-c86f-4c81-b80c-d7dcf2893abc}-IFC_Settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\IFC_Settings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\settings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e9513f5e-7da1-41e2-ae26-12d1c86d539e}-settings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\settings.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="3a81e559-9478-48a8-b944-53d8ec7e9e64" Name="Welcome Screen" ConditionGroup="IntelligentFrameCorrection">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Extension Installer for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] version [Version] on your computer.
+It is recommended that you close all other applications before continuing.
+Click Next to continue or Cancel to exit Setup.</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="0fbf74e7-82ee-4d67-8ae0-99543ba41cc9" Name="Install Section" ConditionGroup="IntelligentFrameCorrection">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>[Name]</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="73c3e368-3fbf-44dd-a0f0-f2345f65e0ae" Name="Setup Complete" ConditionGroup="IntelligentFrameCorrection">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Extension Installer Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value />
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>false</WarnOnly>
+        <Message>requires MediaPortal version 1.1.6.0 to 1.2.0.0</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+    </Items>
+  </Dependencies>
+  <PluginDependencies>
+    <Items>
+      <PluginDependencyItem AssemblyName="IntelligentFrameCorrection.dll">
+        <CompatibleVersion>
+          <Items>
+            <CompatibleVersionItem>
+              <MinRequiredVersion>1.1.6.0</MinRequiredVersion>
+              <DesignedForVersion>1.2.0.0</DesignedForVersion>
+            </CompatibleVersionItem>
+          </Items>
+        </CompatibleVersion>
+        <SubSystemsUsed>
+          <Items />
+        </SubSystemsUsed>
+      </PluginDependencyItem>
+      <PluginDependencyItem AssemblyName="IntelligentFrameCorrectionUI.dll">
+        <CompatibleVersion>
+          <Items>
+            <CompatibleVersionItem>
+              <MinRequiredVersion>1.1.6.0</MinRequiredVersion>
+              <DesignedForVersion>1.2.0.0</DesignedForVersion>
+            </CompatibleVersionItem>
+          </Items>
+        </CompatibleVersion>
+        <SubSystemsUsed>
+          <Items />
+        </SubSystemsUsed>
+      </PluginDependencyItem>
+    </Items>
+  </PluginDependencies>
+  <GeneralInfo>
+    <Name>Intelligent Frame Correction</Name>
+    <Id>84e90967-e8ee-4eea-98c7-c3356242287b</Id>
+    <Author>Martin Rogas a.k.a. Marvman</Author>
+    <HomePage>http://forum.team-mediaportal.com/i-f-c-intelligent-frame-correction-512/</HomePage>
+    <ForumPage>http://forum.team-mediaportal.com/i-f-c-intelligent-frame-correction-512/</ForumPage>
+    <UpdateUrl>https://mp-plugins.svn.sourceforge.net/svnroot/mp-plugins/trunk/plugins/IntelligentFrameCorrection/MpeRelease/update.xml</UpdateUrl>
+    <Version>
+      <Major>2</Major>
+      <Minor>0</Minor>
+      <Build>3</Build>
+      <Revision>0</Revision>
+    </Version>
+    <ExtensionDescription>Intelligent Frame Correction adjust your TV/Video/Internet content and remove no necessary black bars, grubby edges and select the correct view mode automatically.</ExtensionDescription>
+    <VersionDescription>- fixed auto start behavior
+- 1.2.0 Beta ready
+- 1.2.0 RC1 ready
+- fixed switch from file to file when Moving Pictures is used (workaround)
+- added skin files for Default and DefaultWide skin</VersionDescription>
+    <DevelopmentStatus>Stable</DevelopmentStatus>
+    <OnlineLocation>https://mp-plugins.svn.sourceforge.net/svnroot/mp-plugins/trunk/plugins/IntelligentFrameCorrection/MpeRelease/IntelligentFrameCorrection_2.0.3.MPE1</OnlineLocation>
+    <ReleaseDate>2010-06-22T20:48:21</ReleaseDate>
+    <Tags>tv,viewmode,aspect,ratio,zoom,mode,ar,automatic, auto,ifc,intelligent,frame,correction,video,adjust,black, bar,blackbar</Tags>
+    <Location>C:\Users\Marv\Documents\Visual Studio 2010\Projects\IFC\Versions\IntelligentFrameCorrection_2.0.3.MPE1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description />
+        </SectionParam>
+        <SectionParam Name="">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description />
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value />
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>yes</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrection\bin\Release\IntelligentFrameCorrection.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4033af81-7a71-48b2-8617-6f4527954c02}-IntelligentFrameCorrection.dll</ZipFileName>
+        <DestinationFilename>%Plugins%\process\IntelligentFrameCorrection.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\bin\Release\IntelligentFrameCorrectionUI.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f9e7c629-bdf5-45de-b3f8-8b9fbdb224af}-IntelligentFrameCorrectionUI.dll</ZipFileName>
+        <DestinationFilename>%Plugins%\Windows\IntelligentFrameCorrectionUI.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrection\IntelligentFrameCorrection.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{caa3381d-bdca-413b-9f72-da748bda7e09}-IntelligentFrameCorrection.xml</ZipFileName>
+        <DestinationFilename>%Config%\IntelligentFrameCorrection.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\IFC_Settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{bcaccbb4-857e-4a9c-b291-e545046756a1}-IFC_Settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\IFC_Settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{de9915fd-6488-4db6-af73-7f1b0782c998}-settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\IFC_Settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5aaf3471-1b18-4ad8-a5b7-d83dc91f4352}-IFC_Settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\IFC_Settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c0f6b55c-6e54-4c23-ad5e-981261a39bec}-settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\IFC_Settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{52076770-3054-4a0e-a0e5-461c19b29f6f}-IFC_Settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Default\IFC_Settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c4fd6225-04b8-47cd-a6d5-e9c837bfdbba}-settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Default\settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\IFC_Settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{470ba9b6-c86f-4c81-b80c-d7dcf2893abc}-IFC_Settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\IFC_Settings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\settings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e9513f5e-7da1-41e2-ae26-12d1c86d539e}-settings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\settings.xml</DestinationFilename>
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{779c1a23-5a54-4645-ab29-a480ac024230}-</ZipFileName>
+        <DestinationFilename>%Skin%\Default</DestinationFilename>
+        <Folder>..\IntelligentFrameCorrectionUI\SkinFiles\Default</Folder>
+        <Group>Skin</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{6be0c0b5-5672-4a3d-ab23-7fdb4d9c3035}-</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide</DestinationFilename>
+        <Folder>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide</Folder>
+        <Group>Skin</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+    </FolderGroups>
+    <ProjectFilename>IntelligentFrameCorrection_2.0.0.xmp2</ProjectFilename>
+    <UpdatePath1>C:\Users\Marv\Documents\Visual Studio 2010\Projects\IFC\Versions\update.xml</UpdatePath1>
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+  <IsSkin>false</IsSkin>
+</PackageClass>
