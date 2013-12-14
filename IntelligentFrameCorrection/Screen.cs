@@ -4,7 +4,6 @@ using MediaPortal.Configuration;
 using MediaPortal.Player;
 using MediaPortal.GUI.Library;
 using MediaPortal.Profile;
-using Microsoft.DirectX.Direct3D;
 using System.Threading;
 
 namespace IntelligentFrameCorrection
@@ -39,7 +38,8 @@ namespace IntelligentFrameCorrection
         protected CustomViewMode lastCustomViewMode { get; set; }
         protected AspectRatios lastAspectRatio { get; set; }
 
-        protected AdapterInformation currentFullscreenAdapterInfo = GUIGraphicsContext.currentFullscreenAdapterInfo;
+        protected System.Windows.Forms.Screen currentScreen = GUIGraphicsContext.currentScreen;
+        
 
         public void setFrameAnalyzer(IFrameAnalyzer pFrameAnalyzer)
         {

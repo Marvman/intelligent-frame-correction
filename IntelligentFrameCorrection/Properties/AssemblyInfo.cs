@@ -10,12 +10,12 @@ using MediaPortal.Common.Utils;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IntelligentFrameCorrection")]
-[assembly: AssemblyCopyright("Copyright ©  2011 Martin Rogas")]
+[assembly: AssemblyCopyright("Copyright ©  2013 Martin Rogas")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 //MediaPortal Compatibility Check
-[assembly: CompatibleVersion("1.2.0.0", "1.1.6.0")]
+[assembly: CompatibleVersion("1.6.0.0", "1.5.1.0")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -34,5 +34,5 @@ using MediaPortal.Common.Utils;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("2.0.3.0")]
-[assembly: AssemblyFileVersion("2.0.3.0")]
+[assembly: AssemblyVersion("2.0.4.0")]
+[assembly: AssemblyFileVersion("2.0.4.0")]

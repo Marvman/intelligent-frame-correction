@@ -44,30 +44,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\IFC_Settings.xml</LocalFileName>
+              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Titan\IFC_Settings.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{bcaccbb4-857e-4a9c-b291-e545046756a1}-IFC_Settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Blue3\IFC_Settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\settings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{de9915fd-6488-4db6-af73-7f1b0782c998}-settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Blue3\settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\IFC_Settings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{5aaf3471-1b18-4ad8-a5b7-d83dc91f4352}-IFC_Settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Blue3wide\IFC_Settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\settings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{c0f6b55c-6e54-4c23-ad5e-981261a39bec}-settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Blue3wide\settings.xml</DestinationFilename>
+              <DestinationFilename>%Skin%\Titan\IFC_Settings.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -79,23 +58,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\settings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{c4fd6225-04b8-47cd-a6d5-e9c837bfdbba}-settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Default\settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\IFC_Settings.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{470ba9b6-c86f-4c81-b80c-d7dcf2893abc}-IFC_Settings.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\IFC_Settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\settings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e9513f5e-7da1-41e2-ae26-12d1c86d539e}-settings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\DefaultWide\settings.xml</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -223,8 +188,8 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Build>6</Build>
           <Revision>27644</Revision>
         </MaxVersion>
-        <WarnOnly>false</WarnOnly>
-        <Message>requires MediaPortal version 1.1.6.0 to 1.2.0.0</Message>
+        <WarnOnly>true</WarnOnly>
+        <Message>This version of Intelligent Frame Correction requires MediaPortal 1.2.0 Beta or higher!</Message>
         <Name>MediaPortal</Name>
       </DependencyItem>
     </Items>
@@ -235,8 +200,8 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <CompatibleVersion>
           <Items>
             <CompatibleVersionItem>
-              <MinRequiredVersion>1.1.6.0</MinRequiredVersion>
-              <DesignedForVersion>1.2.0.0</DesignedForVersion>
+              <MinRequiredVersion>1.5.1.0</MinRequiredVersion>
+              <DesignedForVersion>1.6.0.0</DesignedForVersion>
             </CompatibleVersionItem>
           </Items>
         </CompatibleVersion>
@@ -269,20 +234,18 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Version>
       <Major>2</Major>
       <Minor>0</Minor>
-      <Build>3</Build>
+      <Build>4</Build>
       <Revision>0</Revision>
     </Version>
     <ExtensionDescription>Intelligent Frame Correction adjust your TV/Video/Internet content and remove no necessary black bars, grubby edges and select the correct view mode automatically.</ExtensionDescription>
-    <VersionDescription>- fixed auto start behavior
-- 1.2.0 Beta ready
-- 1.2.0 RC1 ready
-- fixed switch from file to file when Moving Pictures is used (workaround)
-- added skin files for Default and DefaultWide skin</VersionDescription>
+    <VersionDescription>- 1.6.0 pre ready
+- updated skin files for Default and DefaultWide skin
+- added skin files for Titan skin</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://mp-plugins.svn.sourceforge.net/svnroot/mp-plugins/trunk/plugins/IntelligentFrameCorrection/MpeRelease/IntelligentFrameCorrection_2.0.3.MPE1</OnlineLocation>
-    <ReleaseDate>2010-06-22T20:48:21</ReleaseDate>
+    <OnlineLocation>https://mp-plugins.svn.sourceforge.net/svnroot/mp-plugins/trunk/plugins/IntelligentFrameCorrection/MpeRelease/IntelligentFrameCorrection_2.0.4.MPE1</OnlineLocation>
+    <ReleaseDate>2013-12-14T20:48:21</ReleaseDate>
     <Tags>tv,viewmode,aspect,ratio,zoom,mode,ar,automatic, auto,ifc,intelligent,frame,correction,video,adjust,black, bar,blackbar</Tags>
-    <Location>C:\Users\Marv\Documents\Visual Studio 2010\Projects\IFC\Versions\IntelligentFrameCorrection_2.0.3.MPE1</Location>
+    <Location>C:\git\intelligent-frame-correction\Versions\IntelligentFrameCorrection_2.0.4.MPE1</Location>
     <Params>
       <Items>
         <SectionParam Name="">
@@ -317,6 +280,11 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <ValueType>Bool</ValueType>
           <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
         </SectionParam>
+        <SectionParam Name="Icon">
+          <Value />
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
       </Items>
     </Params>
   </GeneralInfo>
@@ -346,30 +314,9 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\IFC_Settings.xml</LocalFileName>
+        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Titan\IFC_Settings.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{bcaccbb4-857e-4a9c-b291-e545046756a1}-IFC_Settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Blue3\IFC_Settings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3\settings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{de9915fd-6488-4db6-af73-7f1b0782c998}-settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Blue3\settings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\IFC_Settings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{5aaf3471-1b18-4ad8-a5b7-d83dc91f4352}-IFC_Settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Blue3wide\IFC_Settings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Blue3wide\settings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c0f6b55c-6e54-4c23-ad5e-981261a39bec}-settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Blue3wide\settings.xml</DestinationFilename>
+        <DestinationFilename>%Skin%\Titan\IFC_Settings.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -381,51 +328,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\Default\settings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c4fd6225-04b8-47cd-a6d5-e9c837bfdbba}-settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Default\settings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\IFC_Settings.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{470ba9b6-c86f-4c81-b80c-d7dcf2893abc}-IFC_Settings.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\IFC_Settings.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide\settings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e9513f5e-7da1-41e2-ae26-12d1c86d539e}-settings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\DefaultWide\settings.xml</DestinationFilename>
-      </FileItem>
     </Items>
   </UniqueFileList>
   <ProjectSettings>
-    <FolderGroups>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName />
-        <ZipFileName>Installer{CopyFile}\{779c1a23-5a54-4645-ab29-a480ac024230}-</ZipFileName>
-        <DestinationFilename>%Skin%\Default</DestinationFilename>
-        <Folder>..\IntelligentFrameCorrectionUI\SkinFiles\Default</Folder>
-        <Group>Skin</Group>
-        <Recursive>true</Recursive>
-      </FolderGroup>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName />
-        <ZipFileName>Installer{CopyFile}\{6be0c0b5-5672-4a3d-ab23-7fdb4d9c3035}-</ZipFileName>
-        <DestinationFilename>%Skin%\DefaultWide</DestinationFilename>
-        <Folder>..\IntelligentFrameCorrectionUI\SkinFiles\DefaultWide</Folder>
-        <Group>Skin</Group>
-        <Recursive>true</Recursive>
-      </FolderGroup>
-    </FolderGroups>
+    <FolderGroups />
     <ProjectFilename>IntelligentFrameCorrection_2.0.0.xmp2</ProjectFilename>
-    <UpdatePath1>C:\Users\Marv\Documents\Visual Studio 2010\Projects\IFC\Versions\update.xml</UpdatePath1>
+    <UpdatePath1>C:\git\intelligent-frame-correction\Versions\update.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
   </ProjectSettings>

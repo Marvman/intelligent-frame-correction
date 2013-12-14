@@ -56,7 +56,7 @@
   <ItemGroup>
     <Reference Include="Core, Version=1.0.4.21307, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Core\bin\Debug\Core.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -68,7 +68,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Utils, Version=2.2.7.22482, Culture=neutral, processorArchitecture=x86">
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Core\bin\Debug\Utils.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\Utils.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
   </ItemGroup>

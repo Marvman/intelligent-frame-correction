@@ -15,7 +15,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -56,14 +56,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Utils">
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Core\bin\Debug\Common.Utils.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\Common.Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Core, Version=1.2.0.26448, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Core\bin\Debug\Core.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Dialogs">
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Dialogs\bin\Debug\Dialogs.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\plugins\Windows\Dialogs.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
@@ -74,7 +77,8 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Utils">
-      <HintPath>..\..\MediaPortal\trunk\mediaportal\Core\bin\Debug\Utils.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Team MediaPortal\MediaPortal\Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +205,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -210,6 +217,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy "C:\Users\Marv\Documents\Visual Studio 2010\Projects\IFC\IntelligentFrameCorrection\bin\Debug\IntelligentFrameCorrection.dll" "C:\Program Files (x86)\Team MediaPortal\MediaPortal\plugins\process\IntelligentFrameCorrection.dll"</PostBuildEvent>
+    <PostBuildEvent>copy "C:\git\intelligent-frame-correction\IntelligentFrameCorrection\bin\Debug\IntelligentFrameCorrection.dll" "C:\Program Files (x86)\Team MediaPortal\MediaPortal\plugins\process\IntelligentFrameCorrection.dll"</PostBuildEvent>
   </PropertyGroup>
 </Project>

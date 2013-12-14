@@ -54,8 +54,8 @@
             this.lblDescription.Size = new System.Drawing.Size(341, 39);
             this.lblDescription.TabIndex = 39;
             this.lblDescription.Text = "Intelligent Frame Correction is a frame correction plugin for MediaPortal,\r\nthat " +
-                "provide automatically the best possible aspect ratio and letterbox \r\ncorrection." +
-                "";
+    "provide automatically the best possible aspect ratio and letterbox \r\ncorrection." +
+    "";
             // 
             // groupBox1
             // 
@@ -137,7 +137,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Version: 2.0.3";
+            this.label2.Text = "Version: 2.0.4";
             // 
             // label1
             // 

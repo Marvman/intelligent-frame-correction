@@ -82,14 +82,14 @@ namespace IntelligentFrameCorrectionUI
 
         #region GUIControls
 
-        [SkinControlAttribute(18)] protected GUISpinControl spinControlScanInterval;
-        [SkinControlAttribute(2)] protected GUISpinControl spinControlDetectionCounter;
-        [SkinControlAttribute(3)] protected GUISpinControl spinControlMinBrightnessThreshold;
-        [SkinControlAttribute(4)] protected GUISpinControl spinControlMaxBrightnessThreshold;
-        [SkinControlAttribute(5)] protected GUISpinControl spinControlStabilizer;
-        [SkinControlAttribute(6)] protected GUISpinControl spinControlSingleBlackBarHeight;
-        [SkinControlAttribute(7)] protected GUISpinControl spinControlDoubleBlackBarHeight;
-        [SkinControlAttribute(8)] protected GUIToggleButtonControl toggleButtonVerboseLogging;
+        [SkinControlAttribute(15)] protected GUISpinControl spinControlScanInterval;
+        [SkinControlAttribute(13)] protected GUISpinControl spinControlDetectionCounter;
+        [SkinControlAttribute(11)] protected GUISpinControl spinControlMinBrightnessThreshold;
+        [SkinControlAttribute(9)] protected GUISpinControl spinControlMaxBrightnessThreshold;
+        [SkinControlAttribute(7)] protected GUISpinControl spinControlStabilizer;
+        [SkinControlAttribute(3)] protected GUISpinControl spinControlSingleBlackBarHeight;
+        [SkinControlAttribute(5)] protected GUISpinControl spinControlDoubleBlackBarHeight;
+        [SkinControlAttribute(16)] protected GUICheckButton toggleButtonVerboseLogging;
         //[SkinControlAttribute(9)] protected GUIButtonControl buttonExit;
 
         #endregion

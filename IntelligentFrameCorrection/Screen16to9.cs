@@ -348,10 +348,9 @@ namespace IntelligentFrameCorrection
         public override bool screenSetup()
         {
             Log.Debug("I.F.C.: screen setup starting...");
-
             //if a 4:3 resolution was detected, set a PixelRatio of 1,33
-            if (((float) currentFullscreenAdapterInfo.CurrentDisplayMode.Width/
-                 currentFullscreenAdapterInfo.CurrentDisplayMode.Height).Equals(4f/3f))
+            if (((float) currentScreen.Bounds.Width/
+                 currentScreen.Bounds.Height).Equals(4f/3f))
             {
                 GUIGraphicsContext.PixelRatio = 1.333333f;
                 Utils.log(Preferences.getInstance().verboselogging,
